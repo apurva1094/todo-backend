@@ -1,29 +1,20 @@
 {
   "name": "todo-backend",
   "version": "1.0.0",
-  "description": "Backend for Todo App",
+  "description": "Todo Backend API",
   "main": "server.js",
-  
-  "keywords": [
-    "todo",
-    "backend",
-    "node",
-    "express",
-    "mongodb"
-  ],
-  "author": "apurva chaudhari",
-  "license": "ISC",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
-    "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "debug": "^4.3.4",
-    "dotenv": "^17.2.3",
+    "dotenv": "^16.4.5",
     "express": "^4.18.2",
-    "jsonwebtoken": "^9.0.0",
-    "mongoose": "^7.3.4"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.22",
-    "rimraf": "^5.0.0"
+    "mongoose": "^8.0.3"
   }
 }
