@@ -3,12 +3,7 @@
   "version": "1.0.0",
   "description": "Backend for Todo App",
   "main": "server.js",
-  "scripts": {
-    "preinstall": "rimraf node_modules",
-    "start": "node server.js",
-    "dev": "nodemon server.js",
-    "dummy": "echo rebuild"
-  },
+  
   "keywords": [
     "todo",
     "backend",
@@ -29,6 +24,6 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.22",
-    "rimraf": "^5.0.10"
+    "rimraf": "^5.0.0"
   }
 }
